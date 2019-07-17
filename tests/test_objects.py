@@ -1012,6 +1012,7 @@ def test_make_pvc_simple():
         access_modes=[],
         selector=None,
         storage=None,
+        selector=None,
         labels={}
     )) == {
         'kind': 'PersistentVolumeClaim',
