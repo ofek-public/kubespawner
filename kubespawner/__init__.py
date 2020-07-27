@@ -13,6 +13,7 @@ in your `jupyterhub_config.py` file.
 # instead of the more verbose import kubespawner.spawner.KubeSpawner.
 
 from kubespawner.spawner import KubeSpawner
+from kubespawner.multispawner import MultiNamespacedKubeSpawner
 
 __version__ = '0.12.1.dev'
-__all__ = [KubeSpawner]
+__all__ = [KubeSpawner, MultiNamespacedKubeSpawner]
